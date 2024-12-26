@@ -1,15 +1,12 @@
 🎓To-Do List Manager
 =========================
 
----
 
 To-Do List Manager is a simple application designed to help users organize daily tasks. Users can add, edit, delete and mark activities as done. The project uses Java and Spring Boot for backend and JavaFX for frontend for user interaction.
 
----
 
 ## 📋Table of Contents
 
----
 
 - [Getting Started](#getting-started)
 - [Running the Application](#running-the-application)
@@ -19,7 +16,6 @@ To-Do List Manager is a simple application designed to help users organize daily
 
 ## 🚀Getting Started
 
----
 
 ### Prerequisites
 
@@ -43,10 +39,9 @@ git clone https://github.com/olikal/Avancerad_JAVA24_Oliver_Kalthoff_Uppgift
 cd Avancerad_JAVA24_Oliver_Kalthoff_Uppgift
 ```
 
----
 
+## 🏃Running the Application
 
-## 🏃 Running the Application
 
 To run the **To-Do List Manager** application, you'll need to start both the **backend** and **frontend** separately in two terminal windows. Follow these steps:
 
@@ -73,7 +68,6 @@ To run the **To-Do List Manager** application, you'll need to start both the **b
     mvn javafx:run
     ```
    
----
 
 When running the application a window will show up with a list section for the user's activities.
 Activites can be added, edited, deleted and marked as done by using the buttons.
@@ -91,7 +85,6 @@ Functions:
 5. Mark as done
     - Mark a selected activity in the list as done
    
----
 
 ## 📡API-Requests
 
@@ -136,9 +129,8 @@ Content-Type: application/json
 DELETE http://localhost:8080/api/activities/4
 ```
 
----
 
-## 🛠️Tech Stack
+## 🛠Tech Stack
 
 - **Backend**: Java, Spring Boot
 - **Frontend**: JavaFX
