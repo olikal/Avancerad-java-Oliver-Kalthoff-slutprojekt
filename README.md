@@ -56,7 +56,7 @@ To run the **To-Do List Manager** application, you'll need to start both the **b
     ```bash
     mvn spring-boot:run
     ```
-### 1. Start the Frontend (JavaFX)
+### 2. Start the Frontend (JavaFX)
 
 1. Open another **new terminal window** (Command Prompt or PowerShell).
 2. Navigate to the **backend** project folder (`todofe`):
